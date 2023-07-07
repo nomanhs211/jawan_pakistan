@@ -1,0 +1,53 @@
+
+#box{
+    
+    text-align: center;
+    background-color: aqua;
+ color: blue;
+}
+a{g
+    text-decoration: none;
+    
+    
+}
+h1 {
+    color: aqua;
+}
+h3{
+    color: darkgoldenrod;
+}
+.head{
+    background-color: silver;
+    font-size: 230%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 100%;
+    padding: 0%;
+    display: inline-block;
+   
+    position: relative;
+background-color: silver;
+    text-transform: inherit;
+    text-decoration: none;
+    font-weight: 500;
+}
+#x{
+    width: 100%;
+    
+    
+}
+.s{
+    background-color: blueviolet;
+    margin: 0%;
+    
+}
+.foot p {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: brown;
+    margin: 0px auto 4px auto;
+    padding: 1%;
+    word-spacing: 4em;
+
+}

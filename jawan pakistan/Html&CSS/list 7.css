@@ -1,0 +1,147 @@
+p span {
+    font-weight: 900;
+}
+
+p {
+    font-style: italic;
+    line-height: 2em;
+}
+
+#abc li {
+    display: inline;
+    background-color: aqua;
+    padding: 10px 10px 10px 10px;
+    margin: 10px auto 10px auto;
+    font-size: 30px;
+}
+
+#abc li.hide {
+    display: none;
+}
+
+/*     table pg 337   */
+table {
+    border: 3px solid coral;
+    width: 700px;
+}
+
+td {
+    border: 3px solid coral;
+    empty-cells: hide;
+}
+
+
+th,
+td {
+    padding: 7px 10px 10px 10px;
+
+}
+
+th {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 90%;
+    text-align: center;
+
+}
+
+table.one {
+    border-spacing: 5px 10px;
+}
+
+/* form pg 341  */
+form {
+    padding: 10px;
+    text-align: right;
+}
+
+input#email {
+    background-image: url("../image/email.jpeg");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding: 2px 5px 2px 20px;
+}
+
+input#pass {
+    background-image: url("../image/images.png");
+    background-size: 15px;
+    background-repeat: no-repeat;
+    padding: 2px 5px 2px 20px;
+
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: brown;
+    color: aliceblue;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: cell;
+}
+
+fieldset {
+    border: 3px dashed blue;
+    border-radius: 5px;
+    position: fixed;
+}
+
+legend {
+    background-color: antiquewhite;
+    color: red;
+}
+
+/* ch#15 layout pg 358 */
+
+
+/*  pg 367  through position relative we can move
+     element 
+    at every place in  website but Relative positioning moves an
+element in relation to where it
+would have been in normal flow.
+For example, you can move it 10
+pixels lower than it would have
+been in normal flow or 20%
+*/
+.container {
+    background-color: aqua;
+    position: relative;
+    top: 20%;
+    bottom: 40%;
+    right: 40%;
+
+}
+
+.container2 {
+    background-color:teal;
+    position: absolute;
+    top: 138%;
+    right: 50%;
+    left: 30%;
+
+}
+
+/* position fixed is used to fixed div on front page though 
+    other thing are scrolled down 
+    now it is used in legend */
+
+.zindex1 {
+    background-color: blueviolet;
+    position: absolute;
+    top: 115%;
+    z-index: -1;
+}
+
+.zindex2 {
+    background-color: red;
+
+
+}
+
+.float {
+    background-color: brown;
+    float: right;
+    width: 50%;
+}

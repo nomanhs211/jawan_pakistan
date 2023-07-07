@@ -1,0 +1,97 @@
+/* for importing font from google use this method  pg#277 */
+@font-face {
+    font-family: "OleoScript-Bold";
+    src: url("OleoScript-Bold.ttf");
+}
+
+h1 {
+    color: lawngreen;
+    font-family: OleoScript-Bold;
+}
+
+/* Pg#273-287 */
+h1 {
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 5px 5px 5px green;
+
+}
+/* page#288 */
+p {
+    color: red;
+    font-family: OleoScript-Bold;
+    font-weight: bold;
+    font-style: italic;
+    word-spacing: 1em;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 50px;
+}
+
+li {
+    text-transform: uppercase;
+    line-height: 30px;
+    letter-spacing: 20em;
+
+}
+
+/* for first letter capitalizing */
+/* pg#289  */
+p:first-letter {
+    font-size: 50px;
+
+}
+
+p:first-line {
+    font-size: 30px;
+}
+
+/* for link */
+/* pg#290 */
+ a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: skyblue;
+    text-decoration: underline;
+}
+
+button {
+    width: 70px;
+    height: 50px;
+}
+
+button:hover {
+    background-color: yellow;
+    color: red;
+}
+
+/* after click active use before click hover use */
+button:active {
+    color: red;
+    background-color: green;
+}
+
+button:focus {
+    color: red;
+
+}
+
+/* active and focus are same but focus is best */
+img {
+    width: 100%;
+
+
+
+}

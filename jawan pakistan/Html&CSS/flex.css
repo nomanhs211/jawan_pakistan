@@ -1,0 +1,92 @@
+/* website : flexbox froggy.com */
+/* FLEX BOX */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.div1,
+.div2,
+.div3 {
+    border: 5px solid red;
+
+}
+
+/* class 8 0:21 mint */
+
+/* parants */
+
+ .container  {
+   
+    display: flex;
+     /* ( Note: justify contents works on x-axis and align contents works y-axis ) */
+/*( Note: flex box i.e flex property will not work unless display flex is not used )*/
+/* flex-direction: row-reverse; */
+
+/* flex-direction: column; */
+/* flex-direction: column-reverse; */
+/* justify-content: flex-end; */
+/* justify-content: center; */
+/* justify-content: space-around;   */
+/* justify-content: space-between;   */
+/* flex-wrap: wrap;      */
+/*( ( Note: wrap is used when screen is been smalled) */
+/* flex-wrap: wrap-reverse; */
+
+/* ( Note: flex-direction and flex-wrap are in one property) */
+/* flex-flow: row wrap; 
+  
+} */
+
+ /* .container p {
+
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    align-items: flex-end;
+}  */
+
+/* childs */
+
+.main {
+    display: flex;
+}
+.para1 {
+    order: 3; 
+    border: 5px solid red;
+}
+.para2 {
+    
+    border: 5px solid blue;
+    /* flex-grow: 5; */
+    flex-shrink: 4;
+}
+.para3 {
+    
+    border: 5px solid aqua;
+}
+body {
+    background-color: aqua;
+}
+img {
+    width: 60%;
+}
+ /* media quiries  */
+@media only screen and (max-width:600px) {
+    body {
+        background-color: red;
+        text-align: center;
+        padding: 10px;
+        border: 3px solid black;
+    }
+    p {
+        width: 60%;
+        text-align: center;
+        margin: 35px;
+    }
+    img {
+        width: 400px;
+        margin-left: 100px;
+    }
+    
+}

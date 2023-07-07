@@ -1,0 +1,360 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* *******************navbar************************ */
+
+.header {
+    background-color: #f7f8f9 ;
+    box-shadow: 0 0 2px gray;
+    position: sticky;
+    top: 0%;
+    
+}
+.navbar {
+    display: flex;
+    align-items: center;
+
+    width: 1000px;
+    margin: auto;
+   
+}
+.navbar img {
+    width: 70px;
+}
+.country_select {
+    width: 250px;
+    margin-left: 70px;
+}
+.select i {
+    font-size: 15px;
+    transition: all 0.3s;
+}
+
+
+.select {
+    width: 100%;
+    padding: 10px 10px;
+    border-color: #ffffff;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+
+}
+.search_box {
+    display: flex;
+    margin-left: 30px;
+    
+}
+/* 1;13 mint */
+.search_box i {
+    background-color: black;
+    color: #ffffff;
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+    width: 14px;
+} 
+
+
+
+
+.searchclass {
+    padding: 10px;
+    width: 400px;
+    font-size: 15px;
+    border-radius: 0 6px 6px 0;
+    border-color: ;
+    cursor: pointer;
+} 
+.language{
+    margin: 20px;
+
+}
+.selling_page button{
+    margin-left: 25px;
+    border-style: solid;
+    border-width: 5px;
+    border-top-color: #23e5db;
+    border-left-color: #ffce32;
+    border-right-color: #3a77db;
+    border-bottom-color: #3a77ff;
+    font-size: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: white;
+    padding: 6px 20px;
+    display: flex;
+}
+.secondcontainer {
+    background-color: #f7f8f9;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 1px 60px gray ;
+    padding: 22px;
+}
+.list ul {
+    display: flex;
+    justify-content: space-around;
+}
+.list ul li {
+    list-style: none;
+    margin: 0 30px;
+}
+/* *******************************slider**************************** */
+.ad_image {
+
+    width: 780px;
+    margin: auto;
+    margin-top: 35px;
+    height: 100px;
+    position: relative;
+}
+.ad_image img {
+    width: 800px;
+    position: relative;
+    left: -8%;
+    z-index: -1;
+}
+/* *******************************product card**************************** */
+.first-row{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1000px;
+    margin: auto;
+    margin-top: 95px;
+    border: 1px solid black;
+    height: 100vh;
+    
+}
+
+.box{
+    
+    border: 1px solid gray;
+    width: 300px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.box img {
+    
+    margin-left: 50px;
+    
+}
+ .box h3 {
+    padding: 5px 0 0 10px;
+}
+.box p {
+    margin:8px 30px; 
+    color: #6f8a94;
+    font-size: 14px;
+}
+
+/* **************************button****************** */
+
+.loadbutton {
+    position: absolute;
+    left: 50%;
+    top: 180%;
+}
+.loadbutton button {
+padding: 5px 10px;
+border: 3px solid black;
+border-radius: 10px;
+}
+/* **************************slider2****************** */
+.slider2 {
+    margin-top: 90px;
+    margin-left: 20%;
+}
+.slider2 img {
+    border-radius: 8px;
+}
+/* **************************slider2****************** */
+.footer1{
+    display: flex;
+    width: 70%;
+    margin-left: 100px;
+    margin-right: 500px;
+    align-items: flex-start;
+    justify-content: center;
+    height: 140px;
+}
+.footer img {
+    width: 200px;
+    margin-left: 30%;
+}
+.footer1 p {
+margin-top: 50px;
+margin-left: -200px;
+width: 24%;
+}
+
+.icon {
+    position: absolute;
+    top: 235%;
+    left: 70%;
+    bottom: 50%;
+}
+/* ******************************footer2************************ */
+.main-footer{
+    background-color: rgb(148, 148, 148);
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 750px;
+    margin: auto;
+    position: absolute;
+    top: 265%;
+    left: 5%;
+}
+.footer-box p{
+margin: 8px 0 8px 0;
+cursor: pointer;
+}
+.footer-box h2 {
+    margin: 10px 0 15px 0;
+    font-size: 17px;
+    cursor: pointer;
+}
+.links {
+    position: absolute;
+    left: 75%;
+    height: 150px;
+}
+.finalfooter {
+    background-color:darkslategray;
+    position: absolute;
+    top:300% ;
+    width: 104%;
+    padding: 20px;
+    
+}
+.finalfooter p {
+    margin-left: 600px;
+    color: white;
+}
+
+@media only screen and (max-width: 750px){
+
+
+
+    .header {
+        background-color: #f7f8f9 ;
+        box-shadow: 0 0 2px gray;
+        position: sticky;
+        top: 0%;
+        width: 100%;
+    }
+    .navbar {
+        display: flex;
+        align-items: center;
+    
+        width: 1000px;
+        margin: auto;
+       
+    }
+    .navbar img {
+        width: 70px;
+    }
+    .country_select {
+        width: 250px;
+        margin-left: 70px;
+    }
+    .select i {
+        font-size: 15px;
+        transition: all 0.3s;
+    }
+    
+    
+    .select {
+        width: 100%;
+        padding: 10px 10px;
+        border-color: #ffffff;
+        border-radius: 6px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 2px solid black;
+        margin-left: 10px;
+    }
+    .search_box {
+        display: flex;
+        margin-left: -10px;
+        
+    }
+    
+    .search_box i {
+        background-color: black;
+        color: #ffffff;
+        padding: 20px;
+        font-size: 15px;
+        border-radius: 0 6px 6px 0;
+        cursor: pointer;
+        width: 14px;
+    } 
+    
+    
+    
+    
+    .searchclass {
+        padding: 10px;
+        font-size: 15px;
+        border-radius: 0 6px 6px 0;
+        border-color: ;
+        cursor: pointer;
+        width: 200px;
+        margin-left: 10px;
+    } 
+    .language{
+        margin: 20px;
+    
+    }
+    .selling_page button{
+        margin-left: 25px;
+        border-style: solid;
+        border-width: 5px;
+        border-top-color: #23e5db;
+        border-left-color: #ffce32;
+        border-right-color: #3a77db;
+        border-bottom-color: #3a77ff;
+        font-size: 15px;
+        border-radius: 30px;
+        cursor: pointer;
+        background-color: white;
+        padding: 6px 20px;
+        display: flex;
+        margin-left: -10px;
+    }
+
+    .secondcontainer {
+        background-color: #f7f8f9;
+        display: flex;
+        justify-content: center;
+        box-shadow: 1px 1px 60px gray ;
+        padding: 22px;
+    }
+    .list ul {
+        width: 700px;
+        display: flex;
+        justify-content: space-around;
+
+    }
+    .list ul li {
+        list-style: none;
+        margin: 0 10px;
+        
+    }
+}
+

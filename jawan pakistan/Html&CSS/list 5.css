@@ -1,0 +1,110 @@
+/* type selecter */
+h3 {
+    color: aliceblue;
+    background-color: red;
+
+}
+
+p {
+    color: aliceblue;
+    background-color: aqua;
+}
+
+/* universal selecter */
+/* 
+  *{ 
+    color: aliceblue;
+    background-color:rosybrown;
+border:red solid;
+}   */
+/* class selector */
+.smit {
+    color: sienna;
+    background-attachment: red;
+    border: 2px solid pink;
+}
+
+/* id selector */
+#swit {
+    color: blue;
+    background-color: powderblue;
+    background-origin: 2px solid red;
+}
+
+/* child selecter */
+h1>i {
+    color: blue;
+    background-color: powderblue;
+    background-origin: 2px solid red;
+}
+
+/* decendant selector */
+h1 i {
+    color: blue;
+    background-color: powderblue;
+    background-origin: 2px solid red;
+}
+
+/* adjacand sibling slector */
+h2+h3 {
+    color: blue;
+    background-color: powderblue;
+    background-origin: 2px solid yellow;
+}
+
+/* general sibling selector */
+h2~h3 {
+    color: blue;
+    background-color: powderblue;
+    background-origin: 2px solid red;
+}
+
+/* ch#11 color pg#247 (css)    */
+/* there are three property of color on which color is applied 
+            i.e. 1.text color 2.background color 3. border 
+            the color which's applied on text color is called forground color   */
+/* there are three types for applying color 
+            
+            1.color name 2.hex code means color number 3.rgb color (combinition of three color i.e.red ,green,blue)   */
+
+/*1. color name */
+h1 {
+    color: salmon;
+}
+
+/*2. rgb color */
+h2 {
+    color: rgb(255, 100, 50);
+    background-color: rgb(100, 100, 100);
+}
+
+/*3. hex code (hexa decimal) */
+h3 {
+    color: #77ffe8;
+}
+
+body {
+    background-color: royalblue;
+}
+
+h1 {
+    color: seashell;
+    background-color: sienna;
+    /* opacity makes border and background transparent */
+    opacity: 0.8;
+    border: 5px solid yellowgreen;
+}
+
+/* in rgb 'a' shows opacity */
+h1 {
+    color: seashell;
+    background-color: rgba(100, 200, 300, 0.9);
+    border: 5px solid yellowgreen;
+}
+
+/* hsl standsfor hugh,saturation,lightness */
+h2 {
+    color: hsl(0, 100%, 50%);
+    background-color: indigo;
+    border: 5px solid yellowgreen;
+}
